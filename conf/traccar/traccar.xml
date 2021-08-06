@@ -22,8 +22,8 @@
     <entry key='database.password'></entry>
 
     <!-- Data persistence store -->
-    <!-- <entry key='database.driver'>org.postgresql.Driver</entry>
-    <entry key='database.url'>jdbc:postgresql://service-postgres:5432/traccar</entry>
+   <!--  <entry key='database.driver'>org.postgresql.Driver</entry>
+    <entry key='database.url'>jdbc:postgresql://service-postgres:5431/traccar</entry>
     <entry key='database.user'>postgres</entry>
     <entry key='database.password'>postgres</entry>
     <entry key='database.maxPoolSize'>50</entry> -->
@@ -31,14 +31,14 @@
     <!-- Forwarding options -->
     <entry key='forward.enable'>true</entry>
     <entry key='forward.json'>true</entry>
-    <entry key='forward.url'>http://service-node-sample:43000/</entry>
+    <entry key='forward.url'>http://service-php-sample:43000/</entry>
     <!-- <entry key='forward.header'>
         content-type: application/json
         cache-control: no-cache
         charset=utf-8
     </entry> -->
     <entry key='event.forward.enable'>true</entry>
-    <entry key='event.forward.url'>http://service-node-sample:43000/</entry>
+    <entry key='event.forward.url'>http://service-php-sample:43000/</entry>
     <!-- <entry key='event.forward.header'>
         content-type: application/json
         cache-control: no-cache
